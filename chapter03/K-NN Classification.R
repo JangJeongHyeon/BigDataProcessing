@@ -107,6 +107,15 @@ wbcd_test_pred <- knn(train = wbcd_train, test= wbcd_test, cl = wbcd_train_label
 
 
 # Check result
+# CrossTable() function is return confusion matrix 
 CrossTable(x = wbcd_test_labels, y = wbcd_test_pred, prop.chisq = FALSE)
+
+
+##################################################### Trial 2 #####################################################
+# Change the label “Y” and “N” of class
+dump_data <- dump_data[-4]
+dump_data <- data
+label <- data$fac
+result <- knn(train = dump_data, test= list(x2,y2), cl=label, k=3)
 
 
