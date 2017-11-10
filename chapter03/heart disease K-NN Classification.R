@@ -44,16 +44,21 @@ heart <- heart[,-1]
 heart
 
 # check processed data
-round(prop.table(table(heart$cp))* 100, digits = 1)
+round(prop.table(table(heart$exang))* 100, digits = 1)
 
 # check number of row
 nrow(heart)
 
 train <- heart[1:75,]
 test <- heart[76:106,]
-train_label <- heart[1:75,3]
-test_label <- heart[76:106,3]
+train_label <- heart[1:75,6]
+test_label <- heart[76:106,6]
 
-k_nn <- knn(train=train, test=test, cl=train_label, k=21)
+k_nn <- knn(train=train, test=test, cl=train_label, k=23)
 k_nn
-test$cp
+test$exang
+
+
+# Check result
+# CrossTable() function is return confusion matrix 
+CrossTable(x = test_label, y = k_nn, prop.chisq = FALSE)
