@@ -1,0 +1,5 @@
+"","t.x","t.y","t.Freq","prop.row.x","prop.row.y","prop.row.Freq","prop.col.x","prop.col.y","prop.col.Freq","prop.tbl.x","prop.tbl.y","prop.tbl.Freq"
+"1","no","no",853,"no","no",0.968217934165721,"no","no",0.904559915164369,"no","no",0.853
+"2","yes","no",90,"yes","no",0.756302521008403,"yes","no",0.095440084835631,"yes","no",0.09
+"3","no","yes",28,"no","yes",0.0317820658342792,"no","yes",0.491228070175439,"no","yes",0.028
+"4","yes","yes",29,"yes","yes",0.243697478991597,"yes","yes",0.508771929824561,"yes","yes",0.029

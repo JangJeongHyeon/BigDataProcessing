@@ -81,7 +81,7 @@ predict_accurcy
 
 
 ##################################################### Trial 3 #####################################################
-golfData <- read_excel("chapter05/golfData.xlsx")
+golfData <- read_excel("./chapter05/golfData.xlsx")
 golf_test <- c("Sunny","Mild","Normal","False")
 golfData <- as.data.frame(golfData)
 
@@ -94,9 +94,9 @@ golfData$Windy <- as.factor(golfData$Windy)
 # check column number
 length(names(golfData))
 golf_train <- golfData[1:14,-5]
-golf_train_label <- golfData[,5]
+golf_train_label <- golfData[1:14,5]
 golf_test <- golfData[15,-5]
-
+golf_test_label <- golfData[]
 
 golf_model <- C5.0(golf_train, golf_train_label)
 
@@ -106,7 +106,7 @@ summary(golf_model)
 # generate predict model
 golf_predict <- predict(golf_model, golf_test)
 golf_predict
-
+CrossTable(x=d_bank_test_label, y=d_Bank_predict, prop.chisq = FALSE)
 ##################################################### Trial 4 #####################################################
 
 ## Each data assigned to vectors

@@ -1,0 +1,8 @@
+"","     age","         job","    marital","    education","default","   balance","housing"," loan","     contact","     day","    month","   duration","   campaign","    pdays","   previous","   poutcome","  y"
+"","Min.   :19.00  ","management :969  ","divorced: 528  ","primary  : 678  ","no :4445  ","Min.   :-3313  ","no :1962  ","no :3830  ","cellular :2896  ","Min.   : 1.00  ","may    :1398  ","Min.   :   4  ","Min.   : 1.000  ","Min.   : -1.00  ","Min.   : 0.0000  ","failure: 490  ","no :4000  "
+"","1st Qu.:33.00  ","blue-collar:946  ","married :2797  ","secondary:2306  ","yes:  76  ","1st Qu.:   69  ","yes:2559  ","yes: 691  ","telephone: 301  ","1st Qu.: 9.00  ","jul    : 706  ","1st Qu.: 104  ","1st Qu.: 1.000  ","1st Qu.: -1.00  ","1st Qu.: 0.0000  ","other  : 197  ","yes: 521  "
+"","Median :39.00  ","technician :768  ","single  :1196  ","tertiary :1350  ",NA,"Median :  444  ",NA,NA,"unknown  :1324  ","Median :16.00  ","aug    : 633  ","Median : 185  ","Median : 2.000  ","Median : -1.00  ","Median : 0.0000  ","success: 129  ",NA
+"","Mean   :41.17  ","admin.     :478  ",NA,"unknown  : 187  ",NA,"Mean   : 1423  ",NA,NA,NA,"Mean   :15.92  ","jun    : 531  ","Mean   : 264  ","Mean   : 2.794  ","Mean   : 39.77  ","Mean   : 0.5426  ","unknown:3705  ",NA
+"","3rd Qu.:49.00  ","services   :417  ",NA,NA,NA,"3rd Qu.: 1480  ",NA,NA,NA,"3rd Qu.:21.00  ","nov    : 389  ","3rd Qu.: 329  ","3rd Qu.: 3.000  ","3rd Qu.: -1.00  ","3rd Qu.: 0.0000  ",NA,NA
+"","Max.   :87.00  ","retired    :230  ",NA,NA,NA,"Max.   :71188  ",NA,NA,NA,"Max.   :31.00  ","apr    : 293  ","Max.   :3025  ","Max.   :50.000  ","Max.   :871.00  ","Max.   :25.0000  ",NA,NA
+"",NA,"(Other)    :713  ",NA,NA,NA,NA,NA,NA,NA,NA,"(Other): 571  ",NA,NA,NA,NA,NA,NA
